@@ -1,0 +1,19 @@
+<div class="description-panel page-about-me  ">
+
+    <div class="title">{{educationDetails.header}}</div>
+    <div class="page panel-content">
+      <p >{{educationDetails.role}}<br />
+        {{educationDetails.company}}<br />
+      </p>
+      <p *ngFor="let description of educationDetails.roleData">
+       {{description}}
+      </p>
+        <!-- <ul >
+          <li class="checked" *ngFor="let skillsList of educationDetails.skillData">
+              <div class="check"></div>
+              <div class="text">{{skillsList}}</div>
+            </li>
+      </ul> -->
+    </div>
+  </div>
+  

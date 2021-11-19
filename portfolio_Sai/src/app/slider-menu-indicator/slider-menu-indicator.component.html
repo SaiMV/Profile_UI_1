@@ -1,0 +1,100 @@
+<!--<div class="colorBar"></div>-->
+
+
+
+
+
+<div class="main">
+
+  <nav id="nav" class="nav navbar-fixed-top" style="    z-index: 10000000;" [ngClass]="menuClicked?'nav navbar-fixed-top visible':'nav navbar-fixed-top'"  >
+    <a  target="_blank" (click)="toggleClass()" class="btn-menu">
+      <div class="wrapper">
+        <div class="inner-wrapper">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar  bar3"></span>
+          <span class="bar bar4"></span>
+          <span class="bar bar5"></span>
+        </div>
+
+      </div>
+
+    </a>
+    <div>
+        <nav class="com__nav">
+            <ul class="com__nav-list">
+                <li class="com__nav-item">
+                    <a target="_blank" class="com__nav-link flex-row">
+                        <div class="com__section-half">
+                            <span class="blue-line animate scaleInLeft delay-3" style="margin-top: 17px;">Welcome to my profile</span>
+                            <span class="blue-line animate scaleInLeft delay-4">Get my resume here</span>
+                        </div>
+                        <div class="com__section-half">
+                            <span class="white-circle animate slideInRight delay-5" (click)="gotoFirstLook()" style="font-size: 10px;
+                                padding-top: 7px;background-color: rgba(97, 86, 86, 0.33)">view</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="com__nav-item">
+                    <a target="_blank" class="com__nav-link">
+                        <span class="blue-line animate scaleInLeft delay-3">About Me</span>
+                        <span class="white-line animate scaleInLeft delay-4">This is my intro</span>
+                        <span class="white-circle animate scaleIn delay-5" (click)="gotoAboutMe()"
+                              style=" font-size: 10px;
+                                padding-top: 7px;background-color: rgba(97, 86, 86, 0.33)">view</span>
+                    </a>
+
+                </li>
+                <li class="com__nav-item">
+                    <a target="_blank" class="com__nav-link centered">
+                        <span class="blue-line animate scaleIn delay-3">Personal Details</span>
+                        <span class="blue-line animate scaleInLeft delay-1">Just to get some details of me</span>
+                        <span class="white-circle animate slideInRight delay-5" (click)="gotoPersonalDetails()" style="font-size: 10px;
+                                padding-top: 7px;background-color: rgba(97, 86, 86, 0.33)">view</span>
+                    </a>
+                </li>
+                <li class="com__nav-item">
+                    <a target="_blank" class="com__nav-link">
+                        <span class="blue-line animate scaleInLeft delay-2">Professional Details</span>
+                        <span class="white-line animate scaleInLeft delay-4">I will tell about my career first</span>
+                        <span class="white-circle animate scaleIn delay-5" (click)="gotoSkillsAndTechnologies()"
+                              style="position: absolute;bottom: 5px;right:20px; font-size: 10px;
+                                padding-top: 7px;background-color: rgba(97, 86, 86, 0.33)">view</span>
+                    </a>
+                </li>
+                <li class="com__nav-item">
+                    <a target="_blank" class="com__nav-link flex-row">
+                        <div class="com__section-half">
+                            <span class="blue-line animate scaleInLeft delay-3">Skills and Technologies</span>
+                            <span class="white-line animate scaleInLeft delay-4">Then you need to check this</span>
+                        </div>
+                        <div class="com__section-half">
+                            <span class="white-circle animate slideInRight delay-5" style="font-size: 10px;
+                                padding-top: 7px;background-color: rgba(97, 86, 86, 0.33)" (click)="gotoProfessionalDetails()">view</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="com__nav-item">
+                    <a target="_blank" class="com__nav-link centered">
+                        <span class="blue-line animate scaleIn delay-3">Projects</span>
+                        <span class="blue-line animate scaleInLeft delay-1">Now look into my work</span>
+                        <span class="white-circle animate slideInRight delay-5" (click)="gotoMyProjects()" style="font-size: 10px;
+                                padding-top: 7px;background-color: rgba(97, 86, 86, 0.33)">view</span>
+                    </a>
+                </li>
+                <li class="com__nav-item">
+                    <a target="_blank" class="com__nav-link">
+                        <span class="blue-line animate scaleInLeft delay-2">Get in touch with Me</span>
+                        <span class="white-line animate scaleInLeft delay-4">And send mail to hire Me!</span>
+                        <span class="white-circle animate scaleIn delay-5" (click)="getInTouchWith()"
+                              style="position: absolute;bottom: 5px;left:20px; font-size: 10px;
+                                padding-top: 7px;background-color: rgba(97, 86, 86, 0.33)">view</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+  </nav>
+</div>

@@ -1,0 +1,43 @@
+.line_left,
+.line_right{
+		border-top: 1px solid rgb(221 221 222 / 29%);
+		width: calc((100% - 52px) / 2);
+		margin-top: 13px;
+	}
+	.line_left{
+		float: left;
+	}
+	.line_right {
+		float: right;
+	}
+	.left_circle, 
+	.central_circle, 
+	.right_circle {
+		background: rgb(221 221 222 );
+		background: rgb(221 221 222 / 29%);
+		position: absolute;
+		border-radius: 50px;
+	}
+	.left_circle, 
+	.right_circle {
+		width: 13px;
+		height: 13px;
+		top: 7px;
+	}
+	.left_circle{
+		left: calc((100% - 39px) / 2);
+	}
+	.central_circle{
+		width: 26px;
+		height: 26px;		
+		top: 0px;
+		left: calc((100% - 25px) / 2);
+	}
+	.right_circle{
+		left: calc((100% + 15px) / 2)
+	}
+    .horizontal_line {
+        margin: 5px;
+        height: 26px;
+        position: relative;
+    }

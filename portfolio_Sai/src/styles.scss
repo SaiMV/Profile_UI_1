@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+  padding:0px;
+  margin:0px !important;
+  //background-color: rgb(0, 0, 0);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.98);
+}
+
+
+body {
+  font-family: 'Roboto';
+  text-align: center;
+  color: #f5f5f5;
+  overflow-x: hidden;
+  background-color:rgba(40, 42, 43, 0.48);
+}
+
+h1,h3 {
+  color: #333;
+}

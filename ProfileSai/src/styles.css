@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin:0px;
+    background-color: #1e1f24;
+    
+}
+navbar{
+    position: absolute;
+    z-index: 1000;
+    width: 100px;
+    height: 300px;
+    float: right;
+    right: 0px;
+    top:calc((100vh - 300px) / 2);
+}

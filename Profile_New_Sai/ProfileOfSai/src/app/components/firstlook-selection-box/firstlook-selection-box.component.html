@@ -1,0 +1,29 @@
+<div class="logo top-panel" *ngIf="afterSomeTime3"></div>
+
+
+<div *ngIf="!afterSomeTime2 && !afterSomeTime3" 
+[ngClass]="afterSomeTime1?'body_elem2 is-inverted':'body_elem2'" >
+    <div [ngClass]="afterSomeTime1?'mt-c-logo is-in':'mt-c-logo'" >
+        <span [ngClass]="afterSomeTime1?'is-in':''" >I AM</span>
+        <span [ngClass]="afterSomeTime1?'is-in':''">SAI</span>
+    </div>
+    <div class="mt-c-progress is-loading"></div>
+</div>
+<div class="body_elem" *ngIf="!afterSomeTime2 && afterSomeTime3">
+    I am Experineced in
+    <div class="dropping-texts">
+        <div>HTML/CSS</div>
+        <div>JavaScript</div>
+        <div>Angular</div>
+        <div>and Java</div>
+    </div>
+</div>
+<div class="body_elem3" *ngIf="afterSomeTime2">
+<!--<div class="body_elem3" >-->
+    <div class="main-content">
+        <h1>WELCOME</h1>
+        <span class="bounced-word anim_1">Thanks for visiting my profile</span>
+    </div>
+</div>
+<button (click)="downloadResume()" style="    position: absolute;
+    z-index: 10;">Download Resume</button>

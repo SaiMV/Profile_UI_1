@@ -1,0 +1,36 @@
+.media {
+    height: 216px;
+    border-radius: 6px;
+        float: left;
+        width: 300px;
+        border-radius: 5px;
+        border: 1px solid #0c0c0c;
+        padding: 10px;
+        margin: 10px;
+        background: #20638f;
+}
+
+#media-display .play {
+    position: absolute;
+    top: 75px;
+    right: calc((100% - 32px ) / 2) ;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 2px 5px 2px 9px;
+}
+.media {
+    height: 216px;
+    height: 216px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+video {
+    width: 300px;
+    aspect-ratio: auto 320 / 176;
+    height: 200px;
+    background: #20638f;
+}
+

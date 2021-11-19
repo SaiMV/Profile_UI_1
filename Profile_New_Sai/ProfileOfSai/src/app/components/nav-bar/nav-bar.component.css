@@ -1,0 +1,86 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+    list-style: none;
+}
+body{
+    background: #333;
+}
+.metro{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 4px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.item:hover{
+    transform: scale(0.9);
+}
+.item i{
+    font-size: 36px;
+    line-height: 90px;
+    opacity: 0.8;
+}
+.item span{
+    opacity: 0.8;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    font-size: 15px;
+}
+.i1{
+    background: #3498db;
+}
+
+.i2{
+    background: #e74c3c;
+    width: 208px;
+}
+
+.i3{
+    background: #2ecc71;
+}
+
+.i4{
+    background: #34495e;
+}
+
+.i5{
+    background: #9b59b6;
+}
+/* @import "compass/css3"; */
+ 
+
+
+/* 
+.svg-menu-box{
+        position: fixed;
+        z-index: 10000000;
+        right: 20px;
+        bottom: 4px;
+}
+svg rect{
+    fill: #13cec3;
+    stroke:#13cec3;
+}
+svg text{
+    letter-spacing: 2px;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 14px;
+    fill: rgb(255, 255, 255);
+}
+svg path {
+    fill: rgb(255, 255, 255);
+} */

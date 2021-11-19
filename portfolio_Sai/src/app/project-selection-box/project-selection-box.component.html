@@ -1,0 +1,115 @@
+<!--<div class="project-container ">-->
+
+  <!--<div class="websitedisplay">-->
+    <!--<div class="information">-->
+      <!--<h1>Boise State CI + D</h1>-->
+      <!--<h2>College of Innovation<br>& Design</h2>-->
+    <!--</div>-->
+    <!--<div class="laptop">-->
+      <!--<img src="" />-->
+    <!--</div>-->
+    <!--<a class="view" href="" target="_blank" title="Live View">+</a>-->
+  <!--</div>-->
+
+  <!--<div class="websitedisplay">-->
+    <!--<div class="information">-->
+      <!--<h1>Boise Digital</h1>-->
+      <!--<h2>Marketing Agency</h2>-->
+    <!--</div>-->
+    <!--<div class="laptop">-->
+      <!--<img src="" />-->
+    <!--</div>-->
+    <!--<a class="view" href="" target="_blank" title="Live View">+</a>-->
+  <!--</div>-->
+
+
+
+
+<div style="height:100%;width: 100%;position: absolute;overflow-y: scroll;overflow-x: hidden">
+
+
+<section class="folio" id="projects">
+  <h2>Pojects</h2>
+
+  <!-- Portfolio Gallery Grid -->
+  <div class="row-halves">
+    <div class="col">
+      <a target="_blank" ><img src="../../assets/MyProjects/EcBill/desktopView.png" ></a>
+      <div class="content">
+        <h3>MyMaha</h3>
+        <p>A food website</p>
+        <a  target="_blank"  tappable (click)="toggleProjectDetails();" class="btn">Learn More</a>
+      </div>
+    </div>
+    <div class="col">
+      <a target="_blank" ><img src="../../assets/MyProjects/Mawani/Login.png" ></a>
+      <div class="content">
+        <h3>MyMaha</h3>
+        <p>A food website</p>
+        <a  target="_blank"  class="btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row-halves">
+    <div class="col">
+      <a target="_blank" ><img src="../../assets/MyProjects/EcBill/desktopView.png" ></a>
+      <div class="content">
+        <h3>MyMaha</h3>
+        <p>A food website</p>
+        <a  target="_blank"  class="btn">Learn More</a>
+      </div>
+    </div>
+    <div class="col">
+      <a target="_blank" ><img src="../../assets/MyProjects/EcBill/desktopView.png" ></a>
+      <div class="content">
+        <h3>MyMaha</h3>
+        <p>A food website</p>
+        <a  target="_blank"  class="btn">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <div class="row-halves">
+    <div class="col">
+      <a target="_blank" ><img src="../../assets/MyProjects/EcBill/desktopView.png" ></a>
+      <div class="content">
+        <h3>MyMaha</h3>
+        <p>A food website</p>
+        <a  target="_blank"  class="btn">Learn More</a>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- END GRID -->
+</section>
+
+</div>
+
+<!--<div  [ngClass]="hideProjectDetails?'projectDetailsTabHidden':'projectDetailsVisible'" >-->
+<div [hidden]="hideProjectDetails" class="projectDetailsVisible" >
+  <!--<div  [ngClass]="hideProjectDetails?'portfolio-item portfolio-effect__item':'portfolio-item portfolio-effect__item portfolio-item&#45;&#45;eff2 '" >-->
+  <div  class="portfolio-item portfolio-effect__item portfolio-item--eff2 " >
+
+    <div class="portfolio-item__info">
+
+      <h3 class="portfolio-item__header" style="color:white">Web Development</h3>
+
+      <div class="portfolio-item__links">
+
+        <div class="portfolio-item__link-block">
+
+          <a target="_blank"  class="portfolio-item__link" (click)="toggleProjectDetails();" >
+            <i class="material-icons">close</i>
+
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
